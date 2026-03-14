@@ -47,6 +47,18 @@ main {
 }
 
 h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
     text-align: center;
 }
 
