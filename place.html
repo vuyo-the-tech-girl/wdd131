@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <meta name="description" content="Designing and developing a page about the country i would like to visit.">
+    <meta name="author" content="Vuyo Faleni">
+    <link rel="stylesheet" href="styles/places.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        Canada
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/toronto (2).webp" media="(max-width: 600px)">
+            <img src="images/toronto (2).webp" alt="Toronto">
+        </picture>
+        <section class="data">
+            <h2>Data 📊</h2>
+            <ul>
+                <li>Area: 9,984,670 km²</li>
+                <li>Population: 38.7 million</li>
+                <li>Capital: Ottawa</li>
+                <li>Languages: English, French</li>
+                <li>Currency: CAD</li>
+                <li>Time Zone: UTC-3 to UTC-8</li>
+                <li>Calling code: +1</li>
+                <li>Internet TLD: .ca</li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <p>Temperature: <span id="temperature">10°C</span></p>
+            <p>Wind Speed: <span id="windSpeed">15 km/h</span></p>
+            <p>Wind Chill: <span id="windChill"></span></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentYear"></span>🌺 Vuyo Faleni 🌺 South Africa | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>
