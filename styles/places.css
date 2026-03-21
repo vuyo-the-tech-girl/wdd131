@@ -10,7 +10,7 @@ body {
     background-color: var(--secondary-color);
 }
 
-header {
+h1 {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
@@ -41,15 +41,18 @@ section {
 }
 
 h2 {
-    background-color: #e6aae8;
+    background-color: var(--primary-color);
     color: rgb(251, 251, 251);
     padding: 0.5em;
     border-radius: 5px;
     text-align: center;
 }
 
-.weather h2::after {
-    content: " ⛅";
+.weather-icon-mobile {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
 
 footer {
@@ -60,6 +63,12 @@ footer {
 }
 
 @media (min-width: 600px) {
+    .weather h2::after {
+        content: '⛅';
+    }
+    .weather-icon-mobile {
+        display: none;
+    }
     main {
         flex-direction: row;
         justify-content: space-around;
