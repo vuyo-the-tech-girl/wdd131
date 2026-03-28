@@ -116,9 +116,3 @@ nav li {
     padding: 1rem;
     grid-column: 1 / -1;
 }
-
-#temple-container {
-    grid-column: 1 /-1;
-    display: grid;
-    gap: 20px;
-}
