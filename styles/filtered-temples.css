@@ -112,7 +112,7 @@ nav li {
 }
 
 #temple-container {
-    background: pink;
+    background-color: white;
     padding: 1rem;
     grid-column: 1 / -1;
 }
