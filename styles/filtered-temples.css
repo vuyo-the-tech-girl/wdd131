@@ -1,0 +1,124 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+nav ul.show {
+    display: block;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+
+#hamburgerBtn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    #hamburgerBtn {
+        display: none;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+}
+
+#temple-container {
+    background: pink;
+    padding: 1rem;
+    grid-column: 1 / -1;
+}
+
+#temple-container {
+    grid-column: 1 /-1;
+    display: grid;
+    gap: 20px;
+}
