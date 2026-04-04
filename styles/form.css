@@ -36,7 +36,7 @@ input[type="checkbox"] {
 input[type="submit"] {
     background-color: #333;
     color: #fff;
-    padding: 0.5 1rem;
+    padding: 0.5rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -52,4 +52,10 @@ footer {
     padding: 1em;
     text-align: center;
     clear: both;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: lavender;
+    }
 }
