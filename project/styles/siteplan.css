@@ -168,3 +168,28 @@ th, td {
 .contact-form button:hover {
     background: #500b0b;
 }
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+}
+.dark-mode a { color: #9dc6f5; }
+.scent-card, .class-status {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 6px;
+}
+
+#form-message, #visit-message, #greeting {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.open { color: green; }
+.full { color: red; }
+#theme-toggle {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
