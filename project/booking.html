@@ -2,20 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Come join our perfume making class!">
         <meta name="author" content="Vuyo Faleni">
         <title>Spritz Bookings</title> 
-        <link rel="stylesheet" href="styles/siteplan.css">  
+        <link rel="stylesheet" href="styles/siteplan.css">
+        <script src="scripts/project.js" defer></script>
     </head>
     <body>
         <header>
+            <img src="images/logo.jpg" alt="Perfume Logo">
             <nav>
+                <button id="theme-toggle">Dark Mode</button>
                 <ul>
-                    <li><a href="home.com">Home</a></li>
-                    <li><a href="trips.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="booking.html">Bookings</a></li>
+                    <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/index.html">Home</a></li>
+                    <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/about.html">About US</a></li>
+                    <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/contact.html">Contact</a></li>
+                    <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/booking.html">Bookings</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,7 +27,7 @@
             <a href="contact.html" class="cta-button">Book a Class Now!</a>
             <section class="class-container">
                 <div class="classes">
-                    <img src="images/trip1.jpg" alt="Class 1">
+                    <img src="images/solo-date.jpg" alt="Class 1">
                     <h2>Class 1: Solo Date</h2>
                     <p>Duration: 2 hours | Price: R200</p>
                     <p>Treat yourself to a fun and relaxing day of perfume making. Create a scent personal to you and 
@@ -32,7 +35,7 @@
                     </p>
                 </div>
                 <div class="class">
-                    <img src="images/trip2.jpg" alt="class 2">
+                    <img src="images/dd (1).jpg" alt="class 2">
                     <h2>Class 2: Couple Date</h2>
                     <p>Duration: 4 hours | Price: R400</p>
                     <p>Spend the day with your loved one at the Spritz. Making special scents for each other 
@@ -40,7 +43,7 @@
                     </p>
                 </div>
                 <div class="class">
-                    <img src="images/trip3.jpg" alt="Class 3">
+                    <img src="images/group-fun.jpg" alt="Class 3">
                     <h2>Class 3: Group Fun</h2>
                     <p>Duration: 3 hours | Price: R250</p>
                     <p>A class that is perfect for anyone looking to connect and meet new people. We have ice-breakers 
@@ -74,9 +77,10 @@
                     </tr>
                 </tbody>
             </table>
+            <div id="class-list"></div>
         </main>
         <footer>
-            <p>&copy; 2026 Spritz 🌺 Vuyo Faleni 🌺</p>
+            <p>&copy; <span id="year"></span> Spritz 🌺 Vuyo Faleni 🌺</p>
             </footer>
         </body>
         </html>

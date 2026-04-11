@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spritz Contact</title>
+    <meta name="description" content="">
+    <meta name="author" content="Vuyo faleni">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.jpg" alt="Perfume Logo">
+             <button id="theme-toggle">Dark Mode</button>
+            <ul>
+                <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/index.html">Home</a></li>
+                <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/about.html">About Us</a></li>
+                <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/contact.html">Contact Us</a></li>
+                <li><a href="https://vuyo-the-tech-girl.github.io/wdd131/project/booking.html">Bookings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <p id="visit-message"></p>
+        <section class="company-info">
+            <h2>Our Details</h2>
+            <p>Adress: 67 Canvas Rd, Cape Town</p>
+            <p>Phone: 083-393-7344</p>
+            <p>Email: spritz@connect.com</p>
+        </section>
+        <form class="contact-form" action="/submit-form" method="POST" id="contact-form">
+            <h2>Your Details</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Spritz 🌺 Vuyo Faleni 🌺</p>
+    </footer>
+</body>
+</html>
